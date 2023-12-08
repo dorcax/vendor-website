@@ -1,0 +1,35 @@
+.subtext{
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    color: #fff;
+    margin-left: 2%;
+}
+.form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+    padding: 3rem;
+}
+.form .text label{
+    display: block;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #fff;
+    padding-bottom:12px;
+}
+.form .text input{
+    width: 40rem;
+    padding:22px;
+    outline:none
+}
+form .submit  input{
+    display: block;
+    background-color: #f21137;
+    border: none;
+    margin: 10px 40px;
+    padding: 15px 20px;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color: #fff;
+   
+}

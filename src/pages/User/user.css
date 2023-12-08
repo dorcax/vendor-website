@@ -1,0 +1,32 @@
+.userscontainer{
+    display: flex;
+    
+    
+} 
+.usersnavbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f6fa;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1rem;
+    position: fixed;
+    z-index: 999;
+
+
+
+}
+
+.user-list{
+    margin-left: 25rem;
+    padding: 8rem 4rem;
+}
+
+/* @media (max-width:30em) {
+    .user-list{
+        margin: 5% 0;
+        padding: 10px;
+    }
+    
+} */

@@ -1,0 +1,40 @@
+
+.transact-detail{
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+.transaction-table{
+    background-color: #fff;
+    overflow: auto;
+    border-collapse: collapse;
+}
+
+tr{
+    border-bottom: 0.01rem solid #eef0f3;
+}
+.transaction-table thead th{
+    padding:1rem 1.5rem;
+    color: #68020f;
+    font-size: 1.6rem;
+    text-align: start;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.transaction-table tbody td{
+    padding:1rem 1.5rem;
+    font-size: 1.4rem;
+    background-color: #fff;
+}
+/* 
+@media (max-width:768px) {
+
+    .transaction-table thead th{
+      
+        
+        font-size: 1.6rem;
+       
+    }
+    
+} */

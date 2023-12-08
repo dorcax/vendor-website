@@ -1,0 +1,40 @@
+.home{
+    background-color:#68020F;
+}
+
+.main-containers {
+    
+    margin-left: 25rem;
+    padding: 5rem;
+    padding-top: 10rem;
+}
+
+.main-containers .card-container{
+      display: flex;
+      gap: 3rem;
+
+}
+
+/* smaller size */
+
+@media (max-width:30em){
+   .home{
+    display: flex;
+    
+    
+   }
+    .main-containers {
+        
+        margin:0;
+        padding: 0;
+        /* padding:3rem; */
+    
+   }
+  
+   .main-containers .card-container{
+    flex-direction:column;
+    flex-wrap: wrap;
+    padding:8rem 4rem;
+    
+   }
+}

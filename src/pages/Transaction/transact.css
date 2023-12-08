@@ -1,0 +1,31 @@
+
+
+.transact-navbar {
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f6fa;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.transact-details {
+    margin-left: 25rem;
+    padding: 10rem 0 0 5rem;
+
+}
+
+
+/* @media (max-width:768px) {
+    .transact-details {
+        padding: 10px;
+        margin: 15% 0%;
+    }
+
+} */

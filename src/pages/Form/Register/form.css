@@ -1,0 +1,73 @@
+.register{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 80px;
+
+    
+
+}
+.image{
+    max-width: 400px;
+    border: 1px solid #f21137;
+ 
+
+    padding: 40px 30px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.image h2{
+    text-align: center;
+    text-transform: capitalize;
+    color: #f21137;
+    font-size: 1.8rem;
+    padding: 10px;
+}
+.image a{
+    height: 350px;
+}
+.image b{
+        height: 450px;
+}
+.form-register ,.form-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+} 
+
+.form-label input{
+outline: none;    
+width: 300px;
+height: 50px;
+margin-top: 12px;
+
+} 
+.form-label input::placeholder{
+    font-size: 14px;
+
+}
+.submits input {
+    width: 300px;
+    background-color: #f21137; 
+    padding:10px 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin-top: 20px;
+    border: none;
+}
+
+
+.input-text{
+    padding: 20px 10px;
+}
+.input-text a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    color: #f21137;
+}

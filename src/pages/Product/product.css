@@ -1,0 +1,15 @@
+
+.product-form{
+ margin-left: 25rem;
+ padding-top: 8rem;
+ 
+}
+
+/* media queries for small devicess */
+/* @media(max-width:30em) {
+  
+    .product-form{
+        margin:0 ;
+    }
+    
+} */

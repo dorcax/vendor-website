@@ -1,0 +1,95 @@
+
+.navbar-container{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f6fa;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding:1rem;
+    position: fixed;
+    z-index: 999;
+
+}
+
+.search{
+    width: 30rem;
+    height: 3rem;
+    margin-left:28rem;
+    padding-left:  1.5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: #f5f6fa;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 0.3rem 0.8rem;
+
+}
+.search input{
+   max-width: 30rem;
+    outline: none;
+    border: none;
+    
+}
+.nav-text{
+    display: flex;
+    align-items: center;
+    padding-right: 2rem;
+}
+.nav-text i{
+    color: #68020F;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+.nav-text h2{
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    color: #68020F;
+}
+
+
+.toggle-icon{
+  
+     display: none; 
+     color: #68020F; 
+     cursor: pointer; 
+ }
+/* . */
+
+
+ /* media queries */
+ /* max-width is going to be in em not rem or pixel */
+ /* 1rem =1em in default size */
+ /* 480px /16 =30em */
+
+ @media (max-width:30em) { 
+     .navbar-container{
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        
+        /* flex-wrap: wrap; */
+     }
+
+ 
+    .toggle-icon{
+        display: block;
+        font-size: 2rem;
+
+
+    }
+
+   .search{ 
+      padding: 1rem 2rem; 
+      display: none;
+
+
+    
+    } 
+  
+    .nav-text i{
+        display: none;
+    } 
+
+  
+ } 

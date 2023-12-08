@@ -1,0 +1,47 @@
+.table-container{
+    
+    padding: 1rem;
+    overflow: auto;
+    background-color: #fff;
+    border-radius: 0.8rem;
+    margin-top: 6rem;
+    
+    
+    
+}
+
+.tableList{
+      
+      border-collapse: collapse;
+
+}
+tr{
+    border-bottom:0.01rem solid #eef0f3;
+}
+
+.tableList  thead th{
+   text-transform: capitalize;
+   color: #68020F;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    font-weight: 400;
+    text-align: start;
+    padding: 1.5rem;
+}
+tbody td{
+    padding: 1rem 1.5rem ;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    
+   
+}
+
+@media (max-width:30em) {
+    .table-container{
+     margin-left: 0; 
+       
+    } 
+    .tableList{
+        border-collapse: collapse;
+    }
+}

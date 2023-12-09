@@ -46,7 +46,7 @@ nav ul li a{
 /* center nav bar */
 
 
- @media (max-width:30em) {
+ @media (max-width:48em) {
   
      .sidebar{
         display: none; 
@@ -68,5 +68,6 @@ nav ul li a{
         padding: 0;
     }
 }
+
 
      

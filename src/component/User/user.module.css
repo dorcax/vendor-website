@@ -9,6 +9,7 @@
 
 }
 .userlist{
+    width: 100%;
     padding: 1rem;
     overflow: auto;
     border-collapse: collapse;
@@ -33,12 +34,16 @@ tbody td{
     font-size: 1.4rem;
 }
 
-/* @media (max-width:30em) {
-  
+@media (max-width:30em) {
+  .user{
+    overflow-x: hidden;
+ 
+  }
+
     .userlist thead th{
         font-size: 1.6rem;
         padding: 14px 15px;
        
     
     }
-} */
+}

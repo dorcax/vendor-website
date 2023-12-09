@@ -1,40 +1,90 @@
-.home{
-    background-color:#68020F;
+.home {
+    background-color: #68020F;
+    /* overflow-x: hidden; */
 }
 
 .main-containers {
-    
+
     margin-left: 25rem;
     padding: 5rem;
     padding-top: 10rem;
 }
 
-.main-containers .card-container{
-      display: flex;
-      gap: 3rem;
+.main-containers .card-container {
+    display: flex;
+    gap: 3rem;
 
+}
+/* ipad screen */
+@media (max-width :48em) {
+    .home {
+
+        display: flex;
+
+
+
+    }
+    .main-containers {
+
+        margin: 0;
+        padding: 0;
+
+
+    }
+    .main-containers .card-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 10rem;
+        padding-left: 2rem;
+
+
+    }
+    .table {
+        padding: 2rem;
+
+
+
+
+    }
+    
 }
 
 /* smaller size */
 
-@media (max-width:30em){
-   .home{
-    display: flex;
-    
-    
-   }
+@media (max-width:30em) {
+
+    .home {
+
+        display: flex;
+
+
+
+    }
     .main-containers {
-        
-        margin:0;
+
+        margin: 0;
         padding: 0;
-        /* padding:3rem; */
+
+
+    }
     
-   }
-  
-   .main-containers .card-container{
-    flex-direction:column;
-    flex-wrap: wrap;
-    padding:8rem 4rem;
-    
-   }
+
+    .main-containers .card-container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 10rem;
+        padding-left: 2rem;
+
+
+    }
+
+    .table {
+        padding: 2rem;
+
+
+
+
+    }
+
 }
+

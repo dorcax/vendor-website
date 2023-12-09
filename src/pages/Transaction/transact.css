@@ -22,10 +22,16 @@
 }
 
 
-/* @media (max-width:768px) {
+ @media (max-width:30em) {
+    .transact{
+        display: flex;
+        /* overflow: hidden; */
+    }
     .transact-details {
-        padding: 10px;
-        margin: 15% 0%;
+        /* width: 62%; */
+        padding: 8rem 2rem;
+        margin: 0;
+        
     }
 
-} */
+} 

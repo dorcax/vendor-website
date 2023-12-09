@@ -17,8 +17,9 @@ const Product = () => {
   return (
 
 
-<div className={Products.productItem}>
-      <Sidebar show={showNav} />
+<div className="productItem">
+  <div> <Sidebar show={showNav} /></div>
+     
       <div className='navbar-container'>
         <div className="toggle-icon" onClick={HandleNav} >
           {showNav ?

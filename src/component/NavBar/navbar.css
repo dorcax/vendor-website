@@ -9,6 +9,7 @@
     padding:1rem;
     position: fixed;
     z-index: 999;
+    /* overflow-x: hidden; */
 
 }
 
@@ -61,8 +62,9 @@
  /* 1rem =1em in default size */
  /* 480px /16 =30em */
 
- @media (max-width:30em) { 
+ @media (max-width:48em) { 
      .navbar-container{
+        width: 100%;
         justify-content: space-between;
         align-items: center;
         position: fixed;
@@ -75,6 +77,7 @@
     .toggle-icon{
         display: block;
         font-size: 2rem;
+    
 
 
     }

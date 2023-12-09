@@ -23,10 +23,15 @@
     padding: 8rem 4rem;
 }
 
-/* @media (max-width:30em) {
+@media (max-width:30em) {
+    .userscontainer{
+        overflow-x: hidden;
+        
+    }
     .user-list{
-        margin: 5% 0;
-        padding: 10px;
+        margin:  0;
+        padding-top:8rem ;
+        padding-left:1rem;
     }
     
-} */
+}

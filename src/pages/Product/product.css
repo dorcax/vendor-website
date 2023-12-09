@@ -6,10 +6,24 @@
 }
 
 /* media queries for small devicess */
-/* @media(max-width:30em) {
+ @media(max-width:30em) {
   
-    .product-form{
-        margin:0 ;
+    .productItem {
+
+        display: flex;
+        overflow-x: hidden;
+
+
+
+    }
+
+    .product-form {
+
+        margin: 0;
+        padding-top: 8rem;
+        padding-left: 0rem;
+
+
     }
     
-} */
+} 

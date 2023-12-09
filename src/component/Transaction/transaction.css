@@ -27,9 +27,14 @@ tr{
     font-size: 1.4rem;
     background-color: #fff;
 }
-/* 
-@media (max-width:768px) {
 
+
+
+@media (max-width:30em) {
+
+    .transaction-table{
+        max-width: 60%;
+    }
     .transaction-table thead th{
       
         
@@ -37,4 +42,4 @@ tr{
        
     }
     
-} */
+}

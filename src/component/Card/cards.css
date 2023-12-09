@@ -59,19 +59,26 @@ font-weight: 400;
    color: #68020F;
    font-size: 1.8rem
 }
-@media(max-width:30em) {
+@media (max-width:48em) {
     .maincard{
-       /* margin-left: 1rem; */
-       /* padding:1rem ; */
-       width: 30rem;
-       
-        
-        
-       
+       max-width: 40rem;
+    }
     
+}
+@media(max-width:30em) {
+  
+    .maincard{
+
+       /* max-width: 25rem; */
+       
     }
 
 
-   
+   .card h3{
+    padding-bottom: 1rem;
+   }
+   .card p{
+    padding-bottom: 1rem;
+   }
    
 }

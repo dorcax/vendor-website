@@ -47,25 +47,24 @@ form .submit  input{
     color: #fff;
    
 }
-/* @media (max-width:30em) {
+ @media (max-width:30em) {
   
-    html{
-        font-size: 50%;
-    }
+   
     .addproduct{
+
         grid-template-columns: repeat(1,1fr);
 
 
     }
-    form  .form-details input{
-        max-width: 40rem;
-        padding: 1rem 2rem;
+    .formdetails input{
+        width: 35rem;
+        padding: 2rem 2rem;
       
     }
     .product-text h2{
       
         text-align: center;
-        margin-top: 2.5rem;
+        
         }
         form .submit  input{
     
@@ -73,4 +72,4 @@ form .submit  input{
            
            
         }
-} */
+} 

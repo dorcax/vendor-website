@@ -1,7 +1,7 @@
 .table-container{
-    
+    width: 100%;
     padding: 1rem;
-    overflow: auto;
+   overflow: auto;
     background-color: #fff;
     border-radius: 0.8rem;
     margin-top: 6rem;
@@ -11,8 +11,9 @@
 }
 
 .tableList{
-      
-      border-collapse: collapse;
+    width: 100%;
+    overflow: auto;
+    border-collapse: collapse;
 
 }
 tr{
@@ -29,8 +30,9 @@ tr{
     padding: 1.5rem;
 }
 tbody td{
+
     padding: 1rem 1.5rem ;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     text-transform: capitalize;
     
    
@@ -39,9 +41,23 @@ tbody td{
 @media (max-width:30em) {
     .table-container{
      margin-left: 0; 
-       
+     width: 100%;
+     padding:2rem;
+    
     } 
     .tableList{
-        border-collapse: collapse;
+
+        width: 100%;
+        /* margin: 3rem 1.5rem 3rem 1.5rem; */
+        
+    }
+
+    tbody td{
+
+        padding: 1rem 1.5rem ;
+        font-size: 2rem;
+        text-transform: capitalize;
+        
+       
     }
 }

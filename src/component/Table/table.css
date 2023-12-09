@@ -43,17 +43,25 @@ tbody td{
      margin-left: 0; 
      width: 100%;
      padding:2rem;
+     display: block;
     
     } 
     .tableList{
 
         width: 100%;
+        /* display: block; */
         /* margin: 3rem 1.5rem 3rem 1.5rem; */
         
     }
-
+     tr{
+        display: block;
+    }
+    
+thead th{
+    display: block;
+}
     tbody td{
-
+        display: block;
         padding: 1rem 1.5rem ;
         font-size: 2rem;
         text-transform: capitalize;

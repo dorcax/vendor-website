@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
-import product from "./edit.module.css"
+import product from "./Edit.module.css"
 import { toast } from 'react-toastify'
 const Editproduct = () => {
     const [data, setData] = useState({ id: "", name: "", description: "", quantity: "", price: "" })

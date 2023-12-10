@@ -63,14 +63,14 @@ const Login = () => {
             {formik.errors.email && <p style={{color:"red",width:"300px"}}>{formik.errors.email}</p>}
           </div>
           <div className="form-label">
-            <input type="password" name="password" id="" value={formik.values.password} onChange={formik.handleChange} />
+            <input type="password" name="password" id="" placeholder="Enter your passworrd" value={formik.values.password} onChange={formik.handleChange} />
             {formik.errors.password && <p style={{color:"red" ,width:"300px"}}>{formik.errors.password}</p>}
           </div>
           <div className="submits">
             <input type="submit" value="Login" />
           </div>
           <div className="input-text">
-            Not a vendor <a href="/register">sign up now</a>
+            Not a Vendor <a href="/register">sign up</a>
           </div>
         </form>
 

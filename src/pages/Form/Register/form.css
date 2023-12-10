@@ -55,7 +55,7 @@ margin-top: 12px;
     padding:10px 20px;
     text-align: center;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.6rem;
     text-transform: capitalize;
     margin-top: 20px;
     border: none;
@@ -64,10 +64,11 @@ margin-top: 12px;
 
 .input-text{
     padding: 20px 10px;
+    font-size: 1rem;
 }
 .input-text a{
     text-decoration: none;
     text-transform: capitalize;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #f21137;
 }

@@ -55,7 +55,7 @@ const  navigate =useNavigate()
         evt.preventDefault()   
      
 
-        fetch(`http://localhost:5000/product/edit/${productId
+        fetch(` https://vendor-website.onrender.com/product/edit/${productId
     }/${vendorId}`,{
         method:"PATCH",
         headers:{

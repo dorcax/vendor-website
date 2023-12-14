@@ -4,7 +4,7 @@ import useFetch from "../User/useFetch"
 
 const Transactiondetails = () => {
   let id =localStorage.getItem("userId")
-  const{data,Loading,Error} =useFetch(`http://localhost:5000/vendor/${id}`)
+  const{data,Loading,Error} =useFetch(`https://vendor-website.onrender.com/vendor/${id}`)
   return (
     <div>
       {Error && <h2>{Error}</h2>}

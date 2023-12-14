@@ -6,7 +6,7 @@ import "./user.css"
 const UserList = () => {
   let id = localStorage.getItem("userId");
   const { Data, Loading, Error } = useFetch(
-    `http://localhost:5000/vendor/${id}`
+    `https://vendor-website.onrender.com/vendor/${id}`
   );
   const [showNav, setShowNav] = useState(false)
   const HandleNav = () => {

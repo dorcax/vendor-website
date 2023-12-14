@@ -22,7 +22,7 @@ const Editproduct = () => {
 const  navigate =useNavigate()
     useEffect(() => {
 
-        fetch(`http://localhost:5000/product/${productId}/${vendorId}`, {
+        fetch(`https://vendor-website.onrender.com/product/${productId}/${vendorId}`, {
             headers: {
                 Authorization: `Bearer ${localStorage.getItem("jwtToken")}`
             }

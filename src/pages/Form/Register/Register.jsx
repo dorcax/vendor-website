@@ -43,7 +43,7 @@ const Register = () => {
     }),
     onSubmit:(values)=>{
       console.log("submited")
-      fetch("http://localhost:5000/vendor", {
+      fetch("https://vendor-website.onrender.com/vendor", {
         method: "POST",
         headers: {
           "content-type":"application/json"

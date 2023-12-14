@@ -36,7 +36,7 @@ const Products = () => {
         quantity:+quantity
       }
       let userId =localStorage.getItem('userId')
-      fetch(`http://localhost:5000/product/${userId}`, {
+      fetch(`https://vendor-website.onrender.com/product/${userId}`, {
         method: "POST",
         headers: {
           "content-type": "application/json",

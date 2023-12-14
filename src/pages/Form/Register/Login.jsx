@@ -20,7 +20,7 @@ const Login = () => {
       ).required("Password required")
     }),
     onSubmit:(values)=>{
-      fetch("http://localhost:5000/vendor/login", {
+      fetch("https://vendor-website.onrender.com/vendor/login", {
         method: "POST",
         headers: {
           "content-type": "application/json",

@@ -11,7 +11,7 @@ const Table = ({ data }) => {
     console.log(vendorId)
      
       if(window.confirm("do you want to delete the product")){
-        fetch(`http://localhost:5000/product/delete/${productId}/${vendorId}`,{
+        fetch(`https://vendor-website.onrender.com/product/delete/${productId}/${vendorId}`,{
           method:"DELETE",
           headers:{
             Authorization:`Bearer ${localStorage.getItem("jwtToken")}`,
@@ -54,12 +54,13 @@ const Table = ({ data }) => {
             <tr key={er.id}>
 
               {/* <td>{er.id}</td> */}
-              <td>{er.name}</td>
-              <td>{er.description}</td>
-              <td>{er.quantity}</td>
-              <td>{er.price}</td>
-              <td ><Link to={`/product/${er.id}/${er.vendor.id}` } style={{textDecoration:"none",color:"#000"}}  >edit</Link></td>
-              <td onClick={()=>{handleClick(er.id)}}>delete</td>
+              <td data-cell="name">{er.name}</td>
+              <td data-cell="description">{er.description}</td>
+              <td data-cell="quantity">{er.quantity}</td>
+              <td data-cell="price">{er.price}</td>
+              <td data-cell="edit" ><Link to={`/product/${er.id}/${er.vendor.id}` } style={{textDecoration:"none",color:"#000"}}  >edit</Link></td>
+              {/* <td  ><Link to={`/product/${er.id}/${er.vendor.id}` } style={{textDecoration:"none",color:"#000"}}  >edit</Link></td> */}
+              <td data-cell="delete" onClick={()=>{handleClick(er.id)}}>delete</td>
             </tr>
           ))}
         </tbody>

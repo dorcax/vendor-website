@@ -5,7 +5,7 @@ const Tabledetails = () => {
        let id=localStorage.getItem("userId")
         //  let id = sessionStorage.getItem("UserId");
          const { Data, Loading, Error } = useFetch(
-           `http://localhost:5000/product/${id}`  );
+           `https://vendor-website.onrender.com/product/${id}`  );
   return (
       <div className='tabledetails'>
           

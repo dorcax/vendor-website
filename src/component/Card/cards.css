@@ -69,7 +69,8 @@ font-weight: 400;
   
     .maincard{
 
-       /* max-width: 25rem; */
+       
+       flex: 2;
        
     }
 

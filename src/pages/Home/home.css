@@ -56,7 +56,7 @@
     .home {
 
         display: flex;
-        overflow-x: clip;
+        /* overflow-x: clip; */
 
 
 
@@ -83,6 +83,7 @@
     .table {
         padding: 2rem;
         width: 60%;
+        overflow-x: clip;
 
 
 

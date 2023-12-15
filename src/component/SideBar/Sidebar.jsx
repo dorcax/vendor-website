@@ -6,7 +6,8 @@ const Sidebar = ({show}) => {
 
 
   // fetching an endpoint
-  let id = localStorage.getItem("userId");''
+  let id = localStorage.getItem("userId");
+  const[showLog,setShowLogout] =useState(false)
   const { Data, Loading, Error } = useFetch(
     `https://vendor-website.onrender.com/vendor/${id}`
   );
@@ -35,11 +36,13 @@ const Sidebar = ({show}) => {
             <a href="/transaction">Transaction</a>
           </li>
           <li>
-            <i className="fa-solid fa-user"></i> <a href="/login">Login</a>
+            { showLog ? '<i className="fa-solid fa-user"></i> <a href="/login">Login</a>':  ' <i className="fa-solid fa-user"></i> <a href="">logout</a>'
+            }
+            
           </li>
-          <li>
-            <i className="fa-solid fa-user"></i> <a href="">logout</a>
-          </li>
+          {/* <li> */}
+{/*          
+          </li> */}
         </ul>
        
       </nav>

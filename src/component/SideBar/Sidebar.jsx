@@ -36,7 +36,7 @@ const Sidebar = ({show}) => {
             <a href="/transaction">Transaction</a>
           </li>
           <li>
-            { showLog ? '<i className="fa-solid fa-user"></i> <a href="/login">Login</a>':  ' <i className="fa-solid fa-user"></i> <a href="">logout</a>'
+            { !showLog ? '<i className="fa-solid fa-user"></i> <a href="/login">Login</a>':  ' <i className="fa-solid fa-user"></i> <a href="">logout</a>'
             }
             
           </li>

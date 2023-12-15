@@ -38,12 +38,3 @@ tbody td{
    
 }
 
-@media (max-width:30em) {
-    .table-container{
-     /* width: 92%; */
-     /* overflow-x: clip; */
-    
-    } 
-        
-
-}

@@ -39,8 +39,8 @@ tbody td{
 }
 
 @media (max-width:30em) {
-    .table-container{
-     width: 70%;
+    .tableList{
+     width: 65%;
      overflow: scroll;
     
     } 

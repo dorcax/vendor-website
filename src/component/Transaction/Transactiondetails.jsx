@@ -8,7 +8,7 @@ const Transactiondetails = () => {
   return (
     <div>
       {Error && <h2>{Error}</h2>}
-      {Loading && <h2>loading</h2>}
+      {/* {Loading && <h2>loading</h2>} */}
       {data && <Transaction data={data} />}
     </div>
   );

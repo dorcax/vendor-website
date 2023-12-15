@@ -10,7 +10,7 @@ const Tabledetails = () => {
       <div className='tabledetails'>
           
           {Error && <h2>{Error}</h2>}
-          {Loading && <h2>loading</h2>}
+          {/* {Loading && <h2>loading</h2>} */}
           {Data && <Table data={ Data} />}
     </div>
   )

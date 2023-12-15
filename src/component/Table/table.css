@@ -40,8 +40,8 @@ tbody td{
 
 @media (max-width:30em) {
     .table-container{
-     width: 60%;
-     overflow-x: scroll;
+     width: 56%;
+     overflow-x: clip;
     
     } 
         

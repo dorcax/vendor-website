@@ -1,6 +1,6 @@
 .home {
     background-color: #68020F;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .main-containers {
@@ -74,6 +74,7 @@
         flex-wrap: wrap;
         padding-top: 10rem;
         padding-left: 2rem;
+        padding-right: 2rem;
 
 
     }

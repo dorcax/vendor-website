@@ -40,8 +40,8 @@ tbody td{
 
 @media (max-width:30em) {
     .table-container{
-     width: 56%;
-     overflow-x: clip;
+     width: 92%;
+     /* overflow-x: clip; */
     
     } 
         

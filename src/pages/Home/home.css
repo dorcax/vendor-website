@@ -56,6 +56,7 @@
     .home {
 
         display: flex;
+        overflow-x: clip;
 
 
 
